@@ -1,0 +1,111 @@
+/*********************************************************************
+*
+Theme Name: My first Homepage
+Theme URI:
+Description: My first Homepage
+Version: 1.0
+Author: Rene B.
+License: none
+Tags:
+*
+*********************************************************************/
+
+
+/*Basis Element Styling */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Hero List Styling*/
+
+.hero-nav {
+    padding: 16px 80px 80px 80px;
+    background-color: #1f2937;
+}
+
+.navbar {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    gap: 16px
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.text {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+/*Hero Main Style*/
+
+.hero-main {
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.main-text {
+    display: flex;
+    flex: 1;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 12px;
+}
+
+.placeholder {
+    display: flex;
+    background-color: gray;
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-right: 80px;
+}
