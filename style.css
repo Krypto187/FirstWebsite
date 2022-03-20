@@ -177,6 +177,7 @@ img {
 
 .signup {
     display: flex;
+    flex-grow: 1;
     justify-content: space-evenly;
     align-items: center;
     background-color: #3882f6;
@@ -195,4 +196,19 @@ img {
 
 .btn2 {
     border: 2px solid white;
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 10px;
 }
